@@ -8,9 +8,7 @@ Created on Thu Nov  9 15:48:44 2023
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv(
-    "C:/Users/SAAD COMMUNICATION/.spyder-py3/Assignment 1 ADS 1/API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_5995100.csv", skiprows=4)
-
+df = pd.read_csv("API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_5995100.csv", skiprows=4)
 
 def line_plot(df):
     """
